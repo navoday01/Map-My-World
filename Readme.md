@@ -82,15 +82,16 @@ roslaunch robot_mapping mapping.launch
 ```
 Go to the teleop terminal and start navigating the robot around your environment which will result in the 3D and 2D mapping.
 
-![Alt text](assets/pointcloud.gif)|
-![Alt text](assets/3dpcl.png)|
-:--:|
+| ![Alt text](assets/pointcloud.gif) |
+|:----------------------------------:|
+| ![Alt text](assets/3dpcl.png)      |
+|:----------------------------------:|
 |*3D pointcloud created during mapping*|
 
-![Alt text](assets/gridmapping.gif) |
-![Alt text](assets/occupancyGrid.png) |
-:--: |
-|*2D occupancy grid created during mapping*|
+![Alt text](assets/gridmapping.gif) 
+![Alt text](assets/occupancyGrid.png) 
+:--: 
+*2D occupancy grid created during mapping*
 
 
 ## Inspecting Simulated Environment
