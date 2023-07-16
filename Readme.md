@@ -84,8 +84,9 @@ Go to the teleop terminal and start navigating the robot around your environment
 
 ![Alt text](assets/pointcloud.gif)
 :--:
+:--:
 ![Alt text](assets/3dpcl.png)
-
+:--:
 *3D pointcloud created during mapping*
 
 ![Alt text](assets/gridmapping.gif)
