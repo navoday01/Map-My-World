@@ -62,9 +62,22 @@ To implement the project create a simulation environment such that it is easy to
 :--:
 *Simulated Environment*
 
+## Prerequisites
+
+For this project following packages are required. 
+
+Markup : *[rtabmap_ros package](http://wiki.ros.org/rtabmap_ros)
+         *[teleop_twist_keyboard package](http://wiki.ros.org/teleop_twist_keyboard)
+
+The rtabmap_ros package should be built from source. In case of errors please check  **Migration Guide New Interface Noetic/ROS2** and make changes to the mapping.launch file accordingly.
+
 ## Launch the Project
 
-To launch the project, clone the github repository under src folder is your ros workspace.
+To launch the project, clone the github repository under src folder is your ros workspace by
+```
+git clone https://github.com/navoday01/Map-My-World.git
+```
+Clone the teleop_twist_keyboard package   
 
 launch the robot in the environment to simulate in Gazebo by
 ```
