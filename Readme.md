@@ -66,8 +66,9 @@ To implement the project create a simulation environment such that it is easy to
 
 For this project following packages are required. 
 
-Markup : * [rtabmap_ros package](http://wiki.ros.org/rtabmap_ros)
-         * [teleop_twist_keyboard package](http://wiki.ros.org/teleop_twist_keyboard)
+ * [rtabmap_ros package](http://wiki.ros.org/rtabmap_ros)
+
+ * [teleop_twist_keyboard package](http://wiki.ros.org/teleop_twist_keyboard)
 
 The rtabmap_ros package should be built from source. In case of errors please check  **Migration Guide New Interface Noetic/ROS2** and make changes to the mapping.launch file accordingly.
 
