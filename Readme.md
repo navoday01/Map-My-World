@@ -78,7 +78,7 @@ To launch the project, clone the github repository under src folder is your ros 
 ```
 git clone https://github.com/navoday01/Map-My-World.git
 ```
-Clone the teleop_twist_keyboard package   
+Clone the teleop_twist_keyboard and rtabmap_ros package.   
 
 launch the robot in the environment to simulate in Gazebo by
 ```
