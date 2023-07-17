@@ -9,21 +9,21 @@ This project aims to perform mapping using RGB-D based RTAB-Map (Real-Time Appea
 ## Directory Tree 
 
 ```
-.Map My World                                       # Map My World  Project
-├── assets                                          # simulation media
+.Map My World                                     # Map My World  Project
+├── assets                                        # simulation media
 │   ├── mapinspection.png
 │   ├── Rviz.gif
 │   ├── Rviz.mp4
 │   └── SimulatedEnvironment.jpg
-├── Readme.md                                       # project info
-├── robot_mapping                                   # robot_mapping package
-│   ├── CMakeLists.txt                              # compiler instructions
-│   ├── launch                                      # launch folder for launch files
+├── Readme.md                                     # project info
+├── robot_mapping                                 # robot_mapping package
+│   ├── CMakeLists.txt                            # compiler instructions
+│   ├── launch                                    # launch folder for launch files
 │   │   ├── floorplan.launch
 │   │   ├── localization.launch
 │   │   ├── mapping.launch
 │   │   └── robot_description.launch
-│   ├── meshes                                      # meshes folder for sensors
+│   ├── meshes                                    # meshes folder for sensors
 │   │   ├── bases
 │   │   │   └── burger_base.stl
 │   │   ├── hokuyo.dae
@@ -38,18 +38,18 @@ This project aims to perform mapping using RGB-D based RTAB-Map (Real-Time Appea
 │   │   └── wheels
 │   │       ├── left_tire.stl
 │   │       └── right_tire.stl
-│   ├── package.xml                                 # package info
-│   ├── rtabmap.db                                  # .db file for inspecting the created map
-│   ├── urdf                                        # urdf folder for xarco files
+│   ├── package.xml                               # package info
+│   ├── rtabmap.db                                # .db file for inspecting the created map
+│   ├── urdf                                      # urdf folder for xarco files
 │   │   ├── common_properties.xacro
 │   │   ├── my_robot.gazebo
 │   │   └── turtlebot3_burger.urdf.xacro
-│   └── worlds                                      # world folder for world files
+│   └── worlds                                    # world folder for world files
 │       ├── model.config
 │       ├── model.sdf
 │       ├── model.world
 │       └── office.world
-└── rtabmap_ros                                     # rtabmap_ros package (subfolders not included)
+└── rtabmap_ros                                   # rtabmap_ros package (subfolders not included)
 
 95 directories, 455 files
 ```
